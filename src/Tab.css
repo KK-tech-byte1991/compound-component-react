@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tab {
+  border: 1px solid black;
+}
+
+.headerComponent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  background-color: red;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.item.active {
+  background-color: brown;
+}
+
+.contentContainer {
+  background-color: grey;
+  padding: 10px;
+}
